@@ -1,3 +1,7 @@
+/* @override 
+	http://www.gutbusters.net.au/wp-content/themes/Seamless-GutBusters/style.css
+*/
+
 /*
  * Theme Name: Seamless
  * Theme URI: http://seamlessthemes.com
@@ -64,7 +68,7 @@ body {
 
 /* line 48, sass/_base.scss */
 a {
-  color: #999999;
+  color: #6da235;
   text-decoration: none;
 }
 /* line 51, sass/_base.scss */
@@ -72,7 +76,7 @@ a:hover {
   color: #828282;
 }
 
-/* line 58, sass/_base.scss */
+ /*line 58, sass/_base.scss*/ 
 h1 {
   font-size: 25px;
   font-size: 1.563rem;
@@ -566,6 +570,7 @@ li.comment .avatar {
 /* line 500, sass/_base.scss */
 #content {
   width: 100%;
+  background-color: ;
 }
 
 /* line 504, sass/_base.scss */
@@ -595,7 +600,7 @@ li.comment .avatar {
 /* line 528, sass/_base.scss */
 #branding {
   width: 100%;
-  padding: 2em 0;
+  padding: 1em 0;
 }
 
 /* line 533, sass/_base.scss */
@@ -603,6 +608,8 @@ li.comment .avatar {
   line-height: 1.333em;
   font-size: 40px;
   font-size: 2.5rem;
+  margin-bottom: 0.3em;
+  clear: both; 
 }
 /* line 537, sass/_base.scss */
 #site-title a {
@@ -617,6 +624,15 @@ li.comment .avatar {
   font-size: 1rem;
 }
 
+/** Menus - Jake **/
+.menu {
+	list-style: none;
+	float: right;
+}
+
+
+
+
 /**
  * Content
  * --------------------------------------------------------------------------- */
@@ -624,8 +640,8 @@ li.comment .avatar {
 .breadcrumb-trail {
   padding: 1.563em 0;
   color: #c5c5c5;
-  font-size: 16px;
-  font-size: 1.000rem;
+  font-size: 12px;
+  font-size: 0.800rem;
 }
 /* line 564, sass/_base.scss */
 .breadcrumb-trail .sep,
@@ -648,7 +664,6 @@ li.comment .avatar {
 .attachment-meta {
   margin: 0 0 0.938em;
   padding: 1.563em 0;
-  background: white;
   font-size: 17px;
   font-size: 1.0625rem;
 }
@@ -1113,7 +1128,6 @@ a.page-numbers:hover,
   margin: 0 0 1.563em;
   padding: 1.563em 0px;
   border-top: 5px solid #e5e5e5;
-  background: white;
   font-size: 17px;
   font-size: 1.0625rem;
 }

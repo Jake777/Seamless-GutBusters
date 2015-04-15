@@ -215,4 +215,17 @@ function seamless_embed_html( $html ) {
 	return $html;
 }
 
+/*  Jakes Custom Styles */
+
+// Register 2 new menus
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'before-header-menu' => __( 'Top Menu' ),
+      'footer-menu' => __( 'Footer Menu' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
+
 ?>
